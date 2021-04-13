@@ -27,6 +27,6 @@ public class Controller {
     @GetMapping("/exam")
     @ResponseBody
     public Response HelloExam() {
-        return new Response("hello example");
+        return new Response("hello example2");
     }
 }
