@@ -23,4 +23,10 @@ public class Controller {
     public Response HelloDeploy() {
         return new Response("hello deploy");
     }
+
+    @GetMapping("/exam")
+    @ResponseBody
+    public Response HelloExam() {
+        return new Response("hello exam");
+    }
 }
