@@ -17,4 +17,10 @@ public class Controller {
 //        return new ResponseEntity<>(response, headers, HttpStatus.OK);
         return new Response("ㅁㄴㅇ");
     }
+
+    @GetMapping("/deploy")
+    @ResponseBody
+    public Response HelloDeploy() {
+        return new Response("hello deploy");
+    }
 }
